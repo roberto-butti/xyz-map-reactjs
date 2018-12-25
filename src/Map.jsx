@@ -41,7 +41,10 @@ class Map extends Component {
           name: this.state.name,
           //url : 'https://{SUBDOMAIN_INT_1_4}.mapcreator.tilehub.api.here.com/tilehub/wv_livemap_bc/png/sat/256/{QUADKEY}?access_token='+YOUR_ACCESS_TOKEN
           //url: '//stamen-tiles-{SUBDOMAIN_INT_1_4}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg'
-          url: 'http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg'
+          //url: 'http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg'
+          //url: '//{SUBDOMAIN_CHAR}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+          //url: '//{SUBDOMAIN_CHAR}.tilessputnik.ru/tiles/kmt2/{z}/{x}/{y}.png'
+          url: '//worldtiles{SUBDOMAIN_INT_1_4}.waze.com/tiles/{z}/{x}/{y}.png'
           //url: 'https://{SUBDOMAIN_INT_1_4}.base.maps.api.here.com/maptile/2.1/maptile/newest/normal.day/{Z}/{X}/{Y}/256/png8?access_token='+YOUR_ACCESS_TOKEN
         })
       })

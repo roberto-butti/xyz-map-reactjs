@@ -2,6 +2,10 @@
 
 This is my personal playgrond to play with React.js and XYZ Map JS.
 
+## Useful links, tutorial, blogposts
+- [Map Tiles Compare](https://mc.bbbike.org/mc/)
+- [XYZ Maps Documentation - JS SDK](https://xyz.api.here.com/maps/latest/documentation/here.xyz.maps.html)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
