@@ -87,6 +87,9 @@ class Map extends Component {
         <div id="map-detail">
         { this.state.center.latitude },{ this.state.center.longitude }x{ this.state.zoom }
         </div>
+        <div>
+         { process.env.REACT_APP_MY_TITLE }
+        </div>
       </div>
     )
   }
