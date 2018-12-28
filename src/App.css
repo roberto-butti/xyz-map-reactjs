@@ -1,7 +1,11 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
+.container: {
+  magin:0px;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -29,4 +33,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.map-container {
+  width: 100%;
+  height: 90vh;
+}
+.seach_box {
+  position: absolute;
+  top: 10px;
 }
