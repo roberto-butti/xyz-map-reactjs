@@ -61,8 +61,8 @@ class SearchPlaces extends Component {
               <input className="input " type="text" ref={(input) => this.textInput = input} defaultValue="Roncade" placeholder="Large loading input" />
             </div>
             <div className="control">
-              <button className="button is-rounded">
-                <span class="icon is-small">
+              <button className="button">
+                <span class="icon">
                   <i class="fas fa-search"></i>
                 </span>
               </button>
